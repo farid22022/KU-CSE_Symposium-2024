@@ -41,6 +41,12 @@ a.active {
   @apply w-11/12 mx-auto;
 }
 
+footer {
+  z-index: 1;
+  position: relative;
+}
+
+
 /* .row {
   display: flex;
   flex-wrap: wrap;

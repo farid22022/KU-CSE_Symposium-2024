@@ -15,7 +15,12 @@ const Main = () => {
         document.documentElement.setAttribute('data-theme', selectedTheme);
     };
 
+    
+
     useEffect(() => {
+        const savedTheme = localStorage.getItem('selectedTheme') || 'aqua';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+
         const themeButtons = document.querySelectorAll('.theme-controller');
         themeButtons.forEach(button => {
             button.addEventListener('change', handleThemeChange);
@@ -29,11 +34,11 @@ const Main = () => {
     }, []);
 
     return (
-        <div className={`main-container } transition-all duration-1000`}>
+        <div className={`main-container } transition-all duration-1000 border-2`}>
             { noNavBarFooter || <NavBar/>}
             <Outlet />
             { noNavBarFooter || <Footer />}
-            <div className=' top-24 fixed'>
+            <div className=' top-44 fixed'>
                 <div className="dropdown mb-72">
                     <div className="bg-red btn m-1 hover:text-xl hover:text-red-900 transition-all duration-1000" tabIndex={0} role="button" >
                     Theme

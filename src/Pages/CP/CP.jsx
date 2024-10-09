@@ -9,6 +9,9 @@ const CP = () => {
             </Helmet>
             {/* <Banner2></Banner2> */}
             <h2 className="text-center pt-20 text-2xl">Contest Programming</h2>
+            <div className="text-center">
+                <button >Register Now !</button>
+            </div>
             
         </div>
     );

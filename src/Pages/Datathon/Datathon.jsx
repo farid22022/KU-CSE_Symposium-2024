@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import Overview from "./Overview/Overview";
 
 
 const Datathon = () => {
@@ -7,8 +8,9 @@ const Datathon = () => {
             <Helmet>
                 <title>Datathon | KUCSE-Symposium-2024</title>
             </Helmet>
-            {/* <Banner2></Banner2> */}
-            <h2 className="text-center pt-20 text-2xl">Datathon</h2>
+            
+            <h2 className="text-center pt-20 text-5xl text-yellow-700 font-bold">Datathon</h2>
+            <Overview></Overview>
             
         </div>
     );
