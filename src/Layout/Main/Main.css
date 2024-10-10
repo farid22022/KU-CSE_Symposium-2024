@@ -19,7 +19,8 @@
 }
 
 [data-theme='aqua'] {
-    --background-color: rgb(4, 35, 45);
+    /* --background-color: rgb(25, 1, 39); */
+    --background-color: radial-gradient(circle farthest-corner at center center, #3B0380 0%, #290136 100%);
 }
 
 /* General styling */

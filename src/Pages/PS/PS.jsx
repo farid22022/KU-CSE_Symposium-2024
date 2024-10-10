@@ -11,11 +11,9 @@ const PS = () => {
             <div>
                 
             </div>
-            <h2 className="text-center pt-28 text-5xl text-white ">CEO Talk</h2>
+            <h2 className="text-center pt-28 text-5xl text-yellow-700 ">CEO Talk</h2>
             <Overview></Overview>
-            <div className="text-center">
-                <button >Register Now !</button>
-            </div>
+            
             
             
         </div>

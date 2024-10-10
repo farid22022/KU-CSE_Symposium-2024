@@ -11,6 +11,7 @@ import CompitiveProgramming from './FeaturedEvents/CompitiveProgramming';
 import CeoTalk from './FeaturedEvents/CEO/CeoTalk';
 import Innovations from './FeaturedEvents/Innovations/Innovations';
 import FrequentlyAQ from './FAQ/FrequentlyAQ';
+import Sponsorship from './Sponsor/Sponsorship';
 
 const Home = () => {
     return (
@@ -25,15 +26,17 @@ const Home = () => {
             <h1 className="text-5xl text-yellow-700 p-5 text-center pt-20 pb-10">Welcome</h1>
             <Welcome></Welcome>
             <Events></Events>
-            <h1 className="text-5xl text-yellow-700 p-5 text-center">Datathon</h1>
-            <Datathon></Datathon>
-            <h1 className="text-5xl text-yellow-700 p-5 text-center pt-20">Programming Contest</h1>
-            <CompitiveProgramming></CompitiveProgramming>
             <h1 className="text-5xl text-yellow-700 p-5 text-center pt-20">CEO Talk</h1>
             <CeoTalk></CeoTalk>
             <h1 className="text-5xl text-yellow-700 p-5 text-center pt-20">Innovation ShowCasing</h1>
             <Innovations></Innovations>
+            <h1 className="text-5xl text-yellow-700 p-5 text-center pt-20">Programming Contest</h1>
+            <CompitiveProgramming></CompitiveProgramming>
+            <h1 className="text-5xl text-yellow-700 p-5 text-center">Datathon</h1>
+            <Datathon></Datathon>
+            
             <FrequentlyAQ></FrequentlyAQ>
+            <Sponsorship></Sponsorship>
             
         </div>
     );

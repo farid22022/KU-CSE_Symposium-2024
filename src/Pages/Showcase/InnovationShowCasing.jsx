@@ -17,7 +17,7 @@ const InnovationShowCasing = () => {
                 <title>Innovation Showcasing | KUCSE-Symposium-2024</title>
             </Helmet>
             {/* <Banner2></Banner2> */}
-            <h2 className="text-center pt-20 text-2xl">Innovation Showcasing</h2>
+            <h2 className="text-center pt-5 text-5xl mt-20 text-yellow-700">Innovation Showcasing</h2>
             <InnovationsOverview></InnovationsOverview>
             <div className="p-10">
                 <p className="text-2xl text-white text-center">Here are some innovations</p>

@@ -38,24 +38,35 @@ import "./innovation.css";
 
 const Innovations = () => {
     return (
-        <div className="flex flex-col md:flex-row backImageINN p-5 md:p-20 space-y-5 md:space-y-0 md:space-x-3 justify-around">
+        <div className="flex flex-col md:flex-row backImageCP p-5 sm:p-8 md:p-20 space-y-5 md:space-y-0 md:space-x-3 justify-around">
             
             {/* Text Section */}
-            <div>
-                <div className="p-5 md:p-10 bg-slate-400 opacity-80 rounded-xl text-black border-gray-200">
-                    <p className="text-sm md:text-base">Display cutting-edge tech projects and innovations from emerging talents.</p>
-                    <p className="text-sm md:text-base"><span className="text-yellow-700 text-lg md:text-xl">Date:</span> November 9, 2024</p>
-                    <p className="text-sm md:text-base"><span className="text-yellow-700 text-lg md:text-xl">Featured Projects:</span> AI, Robotics, and Next-Gen Technologies</p>
-                    <p className="text-sm md:text-base"><span className="text-yellow-700 text-lg md:text-xl">Networking:</span> Meet with project developers and industry experts.</p>
+            <div className="w-full md:w-1/2">
+                <div className="p-5 sm:p-8 md:p-10 bg-slate-400 opacity-80 rounded-xl text-black border-gray-200">
+                    <p className="text-sm sm:text-base md:text-lg">Test your coding skills by solving complex problems in a timed competition.</p>
+                    <div className="flex space-x-2 mt-4 sm:mt-6">
+                        <div>
+                            <p className="text-yellow-700 text-xs sm:text-sm md:text-base text-start">Date:</p>
+                            <p className="text-yellow-700 text-xs sm:text-sm md:text-base text-start">Prize:</p>
+                            <p className="text-yellow-700 text-xs sm:text-sm md:text-base text-start">Location:</p>
+                            <p className="text-yellow-700 text-xs sm:text-sm md:text-base text-start">Featured Projects:</p>
+                        </div>
+                        <div>
+                            <p className=" text-xs sm:text-sm md:text-base text-start">November 9, 2024</p>
+                            <p className=" text-xs sm:text-sm md:text-base text-start">1st Prize: $500, 2nd Prize: $300</p>
+                            <p className=" text-xs sm:text-sm md:text-base text-start">Exhibition Hall, Innovation Center</p>
+                            <p className=" text-xs sm:text-sm md:text-base text-start">AI, Robotics, and Next-Gen Technologies</p>
+                        </div>
+                    </div>
                     <div className="mt-5">
                         <Button />
                     </div>
                 </div>
             </div>
-
+            
             {/* Image Section */}
-            <div className="flex justify-center md:justify-end">
-                <img className="w-full max-w-sm p-5" src={image} alt="Innovations" />
+            <div className="flex justify-center md:justify-end w-full md:w-1/2">
+                <img className="w-full max-w-xs sm:max-w-sm p-5" src={image} alt="Competitive Programming" />
             </div>
         </div>
     );
