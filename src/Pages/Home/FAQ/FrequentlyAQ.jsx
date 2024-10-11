@@ -34,15 +34,15 @@ const FrequentlyAQ = () => {
     
     return (
         <div className="faq-container">
-            <h2 className=" text-center text-5xl p-20 text-yellow-700">Frequently Asked Questions</h2>
+            <h2 className=" text-center text-5xl p-10 text-yellow-700 font-bold">FAQ</h2>
             <div className="faq-list">
                 {faqs.map((faq, index) => (
                     <div key={index} className="faq-item">
                         <div className="faq-question" onClick={() => toggleFAQ(index)}>
-                            <h4>{faq.question}</h4>
+                            <h4 className='text-yellow-700 text-xl '>{faq.question}</h4>
                             <span>{activeIndex === index ? '-' : '+'}</span>
                         </div>
-                        {activeIndex === index && <p className="faq-answer">{faq.answer}</p>}
+                        {activeIndex === index && <p className="faq-answer text-white">{faq.answer}</p>}
                     </div>
                 ))}
             </div>

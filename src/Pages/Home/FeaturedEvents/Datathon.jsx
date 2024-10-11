@@ -1,33 +1,6 @@
-// import Button from "../../../Shared/Buttons/Button";
-// import image from "./../../../../public/Banner/data3.jpg"
-// import "./Data.css"
-// const Datathon = () => {
-//     return (
-//         <div className="flex backImageData p-20 space-x-3 justify-around">
-//             <div className="text-end justify-end">
-//                 <img className="p-5 " src={image} />
-//             </div>
-//             <div>
-                
-//                 <div className="p-10 bg-slate-400 opacity-65 rounded-xl text-black border-gray-200">
-//                     <p>Test your coding skills by solving complex problems in a timed competition.</p>
-//                     <p><span className="text-yellow-700 text-xl">Date:</span> November 9, 2024</p>
-//                     <p><span className="text-yellow-700 text-xl">Prizes:</span> 1st Prize: $500, 2nd Prize: $300</p>
-//                     <p><span className="text-yellow-700 text-xl">location:</span> Computer Lab, Tech Block</p>
-//                     <p><span className="text-yellow-700 text-xl">Languages:</span>  C, C++, Java, Python</p>
-//                     <div>
-//                         <Button></Button>
-//                     </div>
-//                 </div>
-//             </div>
-            
-//         </div>
-//     );
-// };
 
-// export default Datathon;
 
-import Button from "../../../Shared/Buttons/Button";
+
 import image from "./../../../../public/Banner/data3.jpg";
 import "./Data.css";
 
@@ -53,9 +26,21 @@ const Datathon = () => {
                             <p className=" text-xs sm:text-sm md:text-base text-start"> Teams of up to 3 must use provided datasets.</p>
                         </div>
                     </div>
-                    <div className="mt-5">
-                        <Button />
+                    <div className="mt-5 flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2"> {/* Flex container for responsiveness */}
+                        <a
+                            href="/datathon"
+                            className="inline-block bg-amber-600 text-white font-semibold py-2 px-6 rounded-md hover:bg-amber-700 transition text-center"
+                        >
+                            LEARN MORE
+                        </a>
+                        <a
+                            href="/datathon"
+                            className="inline-block bg-amber-600 text-white font-semibold py-2 px-6 rounded-md hover:bg-amber-700 transition text-center"
+                        >
+                            REGISTER !
+                        </a>
                     </div>
+
                 </div>
             </div>
             {/* Image Section */}

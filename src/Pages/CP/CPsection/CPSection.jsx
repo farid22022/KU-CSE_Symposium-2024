@@ -1,11 +1,11 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import CPRules from './CPRules';
 import './CPSection.css'; // Make sure to create this CSS file for styling
 
 const CPSection = () => {
   return (
     <div className="cp-section text-white py-10 px-5 mt-20">
-      <div className="container mx-auto">
+      {/* <div className="container mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-amber-700 text-center mb-4">
           Contest Programming (CP)
         </h2>
@@ -31,7 +31,7 @@ const CPSection = () => {
             </button>
           </motion.div>
         </div>
-      </div>
+      </div> */}
 
       <CPRules></CPRules>
     </div>

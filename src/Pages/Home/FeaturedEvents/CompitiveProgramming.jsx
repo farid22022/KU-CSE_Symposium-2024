@@ -42,7 +42,6 @@
 
 // export default CompitiveProgramming;
 
-import Button from "../../../Shared/Buttons/Button";
 import image from "./../../../../public/Banner/data3.jpg";
 import "./Compitive.css";
 
@@ -71,8 +70,19 @@ const CompitiveProgramming = () => {
                             <p className=" text-xs sm:text-sm md:text-base text-start">C, C++, Java, Python</p>
                         </div>
                     </div>
-                    <div className="mt-5">
-                        <Button />
+                    <div className="mt-5 flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2"> {/* Flex container for responsiveness */}
+                        <a
+                            href="/cp"
+                            className="inline-block bg-amber-600 text-white font-semibold py-2 px-6 rounded-md hover:bg-amber-700 transition text-center"
+                        >
+                            LEARN MORE
+                        </a>
+                        <a
+                            href="/cp"
+                            className="inline-block bg-amber-600 text-white font-semibold py-2 px-6 rounded-md hover:bg-amber-700 transition text-center"
+                        >
+                            REGISTER !
+                        </a>
                     </div>
                 </div>
             </div>

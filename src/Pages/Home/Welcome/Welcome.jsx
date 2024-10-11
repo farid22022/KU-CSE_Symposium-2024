@@ -28,7 +28,7 @@ import image from "./../../../../public/Banner/data3.jpg";
 
 const Welcome = () => {
     return (
-        <div className="flex flex-col md:flex-row space-y-5 md:space-x-10 md:space-y-0 backImage bg-fixed p-5 pt-20 pb-20 justify-center items-center">
+        <div className="flex flex-col md:flex-row space-y-5 md:space-x-10 md:space-y-0 bg-fixed p-5 pt-20 pb-20 justify-center items-center  backImage">
             
             {/* Text Section */}
             <div className="bg-slate-200 opacity-80 rounded-xl p-5 w-full md:w-1/2">

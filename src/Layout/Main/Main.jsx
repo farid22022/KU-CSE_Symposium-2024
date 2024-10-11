@@ -38,7 +38,7 @@ const Main = () => {
             { noNavBarFooter || <NavBar/>}
             <Outlet />
             { noNavBarFooter || <Footer />}
-            <div className=' top-44 fixed'>
+            {/* <div className=' top-44 fixed'>
                 <div className="dropdown mb-72">
                     <div className="bg-red btn m-1 hover:text-xl hover:text-red-900 transition-all duration-1000" tabIndex={0} role="button" >
                     Theme
@@ -52,7 +52,7 @@ const Main = () => {
                         <li><input type="radio" name="theme-dropdown" className="theme-controller btn btn-sm btn-block btn-ghost justify-start hover:shadow-2xl hover:shadow-white hover:ml-5 transition-all duration-1000" aria-label="Aqua" value="aqua"/></li>
                     </ul>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };
