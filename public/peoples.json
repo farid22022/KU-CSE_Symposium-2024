@@ -1,34 +1,33 @@
 [
     {
-      "schedule": "9:00 am-9:55 am",
+      "schedule": "10:00 am-10:45 am",
+      "speaker": "Mohammad Tawrit",
+      "linkedin": "https://www.linkedin.com/in/mohammad-tawrit-b39655275/",
+      "company": " Bangladesh Research & Education Network (BdREN)·",
+      "position":"CEO",
+      "topic": "Not Provided",
+      "image": "https://www.bdren.net.bd/storage/team_member/8WnpRS0QY1L3Hd7pLskBW8C7Bl7smHYmaNqnKA14.jpg"
+    },
+    {
+      "schedule": "10:50 am-11:35 am",
+      "speaker": "Engr. Md.Tomig UddinAhmed",
+      "linkedin": "https://www.linkedin.com/in/engr-md-tomig-uddinahmed-06275837/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "company": " Planning Division, Ministry of Planning·",
+      "position":"Senior System Analyst",
+      "topic": "Not Provided",
+      "image": "https://i.ibb.co.com/L670w3X/Engr-Md-Tomig-Uddin-Ahmed.jpg"
+    },
+    {
+      "schedule": "11:40 am-12:25 pm",
       "speaker": "Md. Nadim Saker",
       "linkedin": "https://www.linkedin.com/in/nadimsaker/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "company": " Optimizely",
       "position":"Manager",
-      "topic": "Topic 1",
+      "topic": "Not Provided",
       "image": "https://i.ibb.co.com/2tvNwM6/Md-Nadim-Sarker1.jpg"
     },
-  
     {
-      "schedule": "10:00 am-10:45 am",
-      "speaker": "Mahmud Hasan Rana",
-      "linkedin": "https://www.linkedin.com/in/mahmud-hasan-rana-866abb21?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "company": "Oracle ",
-      "position":"Sales Manager",
-      "topic": "Cloud Native and Future Ready Modernize Data and IT Infrastructure",
-      "image": "https://i.ibb.co.com/5hCPr2J/Mahmud-Hosan-Rana.jpg"
-    },
-    {
-      "schedule": "10:50 am-11:35 am",
-      "speaker": "Nazmul Islam Bhuiyan",
-      "linkedin": "https://www.linkedin.com/in/mohammadoli/",
-      "company": "Dohatec ",
-      "position":"New Media Director",
-      "topic": "Building the Government of Tomorrow: Collaborative Efforts Between the Software Industry and Government for Sustainable  National Developmen",
-      "image": "https://i.ibb.co.com/SJFfbCp/Nazmul-Islam3.jpg"
-    },
-    {
-      "schedule": "11:40 am-12:25 pm",
+      "schedule": "12:30 pm-1:15 pm",
       "speaker": "Mohammad Oli Ahad",
       "linkedin": "https://www.linkedin.com/in/oliahad?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "company": " Intelligent Machines Limited·",
@@ -37,13 +36,34 @@
       "image": "https://i.ibb.co.com/VHL3rj0/Mohammad-Oli-Ahad.jpg"
     },
     {
-      "schedule": "11:40 am-12:25 pm",
-      "speaker": "Engr. Md.Tomig UddinAhmed",
-      "linkedin": "https://www.linkedin.com/in/engr-md-tomig-uddinahmed-06275837/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "company": " Planning Division, Ministry of Planning·",
-      "position":"Senior System Analyst",
-      "topic": "topic-5",
-      "image": "https://i.ibb.co.com/L670w3X/Engr-Md-Tomig-Uddin-Ahmed.jpg"
+      "schedule": "2:35 pm-3:20 pm",
+      "speaker": "Mahmud Hasan Rana",
+      "linkedin": "https://www.linkedin.com/in/mahmud-hasan-rana-866abb21?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "company": "Oracle ",
+      "position":"QA Manager",
+      "topic": "Cloud Native and Future Ready Modernize Data and IT Infrastructure",
+      "image": "https://i.ibb.co.com/5hCPr2J/Mahmud-Hosan-Rana.jpg"
+    },
+    {
+      "schedule": "3:25 pm-4:10 pm",
+      "speaker": "Nazmul Islam Bhuiyan",
+      "linkedin": "https://www.linkedin.com/in/mohammadoli/",
+      "company": "Dohatec ",
+      "position":"Infrastructure Manager",
+      "topic": "Building the Government of Tomorrow: Collaborative Efforts Between the Software Industry and Government for Sustainable  National Developmen",
+      "image": "https://i.ibb.co.com/SJFfbCp/Nazmul-Islam3.jpg"
+    },
+    {
+      "schedule": "3:25 pm-4:10 pm",
+      "speaker": "Not Provided",
+      "linkedin": "Not Provided",
+      "company": "Not Provided ",
+      "position":"Not Provided",
+      "topic": "Not Provided",
+      "image": "Not Provided"
     }
+    
+    
+    
   ]
   

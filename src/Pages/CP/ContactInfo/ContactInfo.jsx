@@ -37,7 +37,12 @@ const ContactInfo = () => {
             <p className="text-white">Mahmudul Hasan</p>
             <p className="text-white">
               Email:{" "}
-              <span className="text-gray-600 italic">Not provided</span>
+              <a
+                href="mailto:razi.d6968@gmail.com"
+                className="text-blue-600 hover:underline"
+              >
+                razi.d6968@gmail.com
+              </a>
             </p>
             <p className="text-yellow-700">
               Phone:{" "}

@@ -1,18 +1,18 @@
-import image from "./../../../../../public/Banner/CeoTalkImage4.jpg";
+import image from "./../../../../../public/Banner/CeoTalkImage3.jpg";
 import "./ceo.css";
 import { motion } from "framer-motion";
 
 const CeoTalk = () => {
     return (
-        <div className="flex flex-col md:flex-row lg:flex-row lg:space-x-4 backImageCP p-4 sm:p-6 md:p-20 space-y-5 md:space-y-8 justify-around">
+        <div className="flex flex-col md:flex-row lg:flex-row lg:space-x-4 backImageCEO p-4 sm:p-6 md:p-20 space-y-5 md:space-y-8 justify-around">
             {/* Image Section */}
             <div className="flex justify-center items-center w-full lg:w-1/2 h-3/4">
-                <motion.img animate={{scale:.85}} transition={{type:"spring",damping:70,duration:1}} className="w-full h-full object-cover md:rounded-2xl py-4 " src={image} alt="Competitive Programming" /> {/* Adjust image size and height */}
+                <motion.img animate={{scale:.79 ,y:'-24px'}} transition={{type:"spring",damping:70,duration:2}} className="w-full h-full object-cover md:rounded-2xl py-4 shadow-2xl shadow-slate-950" src={image} alt="Competitive Programming" /> {/* Adjust image size and height */}
             </div>
             
             {/* Text Section */}
             <div className="w-full lg:w-1/2 flex flex-col justify-center  h-full">
-                <div className="sm:p-6 md:p-10 bg-slate-400 opacity-80 rounded-xl text-black border-gray-200 h-full flex flex-col justify-center py-8">
+                <motion.div  className="sm:p-6 md:p-10 bg-slate-400 opacity-80 rounded-xl text-black border-gray-200 h-full flex flex-col justify-center py-8">
                     <p className="text-sm sm:text-base md:text-lg ">
                         Join industry leaders as they share their insights and innovations in technology and data.
                     </p>
@@ -38,13 +38,15 @@ const CeoTalk = () => {
                             LEARN MORE
                         </a>
                         <a
-                            href="/ps"
+                            href="https://forms.gle/KdZ4BuCSAZ61e17t7 "
+                            target="_blank" // Opens link in a new tab
+                            rel="noopener noreferrer" 
                             className="inline-block bg-amber-600 text-white font-semibold py-2 px-6 rounded-md hover:bg-amber-700 transition text-center"
                         >
                             REGISTER!
                         </a>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </div>
     );

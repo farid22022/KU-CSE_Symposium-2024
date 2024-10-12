@@ -44,7 +44,7 @@ const CompitiveProgramming = () => {
             </div>
             
             {/* Image Section */}
-            <div className="flex justify-center items-center w-full lg:w-1/2 h-full">
+            <div className="flex justify-center items-center w-full sm:py-2 lg:w-1/2 sm:h-1/2 h-full">
                 <motion.img
                     animate={{ scaleY: 0.70, y: '-10px' }}
                     transition={{ type: "spring", damping: 70, duration: 1 }}

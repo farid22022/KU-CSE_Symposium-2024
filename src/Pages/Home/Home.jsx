@@ -26,7 +26,7 @@ const Home = () => {
             <Schedule></Schedule>
             {/* <Welcome></Welcome> */}
             <Events></Events>
-            <h1 className="text-5xl text-yellow-700 p-5 font-bold text-center pt-20">CEO Talk</h1>
+            <h1 className="text-5xl text-yellow-700 p-5 font-bold text-center pt-20">Symposium Talk</h1>
             <CeoTalk></CeoTalk>
             <h1 className="text-5xl text-yellow-700 p-5 font-bold text-center pt-20">Innovation ShowCasing</h1>
             <Innovations></Innovations>
