@@ -1,11 +1,16 @@
+import { motion } from "framer-motion";
 const ExternalButton = () => {
     return (
       <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6 mt-10 pb-16">
         {/* Pre-selection Result Button */}
-        <div className="text-center bg-slate-500  p-5 rounded-md">
+        <motion.div className="text-center bg-slate-950  p-5 rounded-md"
+        initial={{scale:0.6,opacity:0}}
+        animate={{scale:1,opacity:1}}
+        transition={{type:'spring',duration:1.5,delay:.5,damping:70}}
+        >
           <div className="grid mb-2">
-                <h2 className="text-lg font-semibold text-gray-800 "> Pre-Selection</h2>
-                <h2 className="text-lg font-semibold text-gray-800 ">Result Announcement</h2>
+                <h2 className="text-lg font-semibold text-white "> Pre-Selection</h2>
+                <h2 className="text-lg font-semibold text-white ">Result Announcement</h2>
           </div>
           <a
             href="#"
@@ -13,13 +18,17 @@ const ExternalButton = () => {
           >
             2 November
           </a>
-        </div>
+        </motion.div>
   
         {/* Final Submission Button */}
-        <div className="text-center bg-slate-500 p-5 rounded-md">
+        <motion.div className="text-center bg-slate-950 p-5 rounded-md"
+        initial={{scale:0.6,opacity:0}}
+        animate={{scale:1,opacity:1}}
+        transition={{type:'spring',duration:1.5,delay:.5,damping:70}}
+        >
             <div className="grid mb-2">
-                    <h2 className="text-lg font-semibold text-gray-800 "> Final Poster Submission</h2>
-                    <h2 className="text-lg font-semibold text-gray-800 "> and Registration</h2>
+                    <h2 className="text-lg font-semibold text-white "> Final Poster Submission</h2>
+                    <h2 className="text-lg font-semibold text-white "> and Registration</h2>
             </div>
           <a
             href="#"
@@ -27,7 +36,7 @@ const ExternalButton = () => {
           >
             2 to 7 November
           </a>
-        </div>
+        </motion.div>
       </div>
     );
   };

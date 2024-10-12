@@ -41,7 +41,7 @@ const Banner = () => {
                 </div>
 
                 <div className="text-white">
-                    <span className="text-yellow-700">Registration Fees:</span>  700 BDT per group (Max. 2 students)
+                    <span className="text-yellow-700">Registration Fees:</span>  800 BDT per group (Max. 2 students)
                 </div>
 
                 <div className="flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-2">

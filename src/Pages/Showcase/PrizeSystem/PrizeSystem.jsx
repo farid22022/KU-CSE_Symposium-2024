@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 
 const PrizeSystem = () => {
     const prizes = [
-        { title: '🏆 Champion', reward: '5000 BDT + Certificate' },
-        { title: '🥈 1st Runner-up', reward: '3000 BDT + Certificate' },
-        { title: '🥉 2nd Runner-up', reward: '2000 BDT + Certificate' },
+        { title: '🏆 Champion', reward: '10000 BDT + Certificate' },
+        { title: '🥈 1st Runner-up', reward: '8000 BDT + Certificate' },
+        { title: '🥉 2nd Runner-up', reward: '5000 BDT + Certificate' },
     ];
 
     return (

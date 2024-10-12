@@ -99,7 +99,7 @@ const EventDetails = () => {
       {
         isEventStarted ?
         <p className="text-center text-xl text-bold">Registration is closed</p> :
-        <p></p>
+        <p className="text-center text-xl text-bold text-white">Pre-Registration On Going</p>
       }
     </div>
   );
