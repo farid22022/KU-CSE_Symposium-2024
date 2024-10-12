@@ -3,6 +3,7 @@ import Overview from "./Overview/Overview";
 import Banner from "./Banner/Banner";
 import ImageSlider from "./mageSlider";
 import EventDetails from "./EventDetails copy/EventDetails";
+import ContactInfo from "./ContactInfo/ContactInfo";
 
 
 const PS = () => {
@@ -18,6 +19,7 @@ const PS = () => {
             <EventDetails></EventDetails>
             <Overview></Overview>
             <ImageSlider></ImageSlider>
+            <ContactInfo></ContactInfo>
             
             
             

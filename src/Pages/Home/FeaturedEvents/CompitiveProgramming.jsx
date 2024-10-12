@@ -4,7 +4,7 @@ import "./Compitive.css";
 
 const CompitiveProgramming = () => {
     return (
-        <div className="flex flex-col md:flex-row lg:flex-row lg:space-x-6 backImageCP p-4 sm:p-6 md:p-20 space-y-5 md:space-y-8 justify-around items-center min-h-screen">
+        <div className="flex flex-col md:flex-row lg:flex-row lg:space-x-6 backImageCP p-4 sm:p-6 md:p-20 space-y-2 sm:space-y-4 md:space-y-8 justify-around items-center min-h-screen">
             
             {/* Text Section */}
             <div className="w-full lg:w-1/2 flex flex-col justify-center h-full">
@@ -46,9 +46,9 @@ const CompitiveProgramming = () => {
             {/* Image Section */}
             <div className="flex justify-center items-center w-full lg:w-1/2 h-full">
                 <motion.img
-                    animate={{ scaleY: 0.70,y:'-10px' }}
+                    animate={{ scaleY: 0.70, y: '-10px' }}
                     transition={{ type: "spring", damping: 70, duration: 1 }}
-                    className="w-full h-full object-cover md:rounded-2xl"
+                    className="w-full h-full object-cover md:rounded-2xl sm:p-2 md:p-0"
                     src={image}
                     alt="Competitive Programming"
                 />

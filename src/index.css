@@ -22,13 +22,13 @@ a,
    sans-serif;
 }
 button {
-  @apply p-2  border-black hover:border-orange-400 border-2 rounded-md hover:text-white hover:bg-orange-400 transition-all duration-200  backdrop-blur-lg shadow-inner shadow-black;
+  @apply p-2   hover:border-orange-400 rounded-md hover:text-white hover:bg-orange-400 transition-all duration-200   ;
 }
 .btn {
-  @apply p-2  border-black hover:border-orange-400 border-2 rounded-md hover:text-white hover:bg-orange-400 transition-all duration-200  backdrop-blur-lg shadow-inner shadow-black;
+  @apply p-2   hover:border-orange-400  rounded-md hover:text-white hover:bg-orange-400 transition-all duration-200   ;
 }
 button.active {
-  @apply p-2 border-orange-400 border-2 rounded-md text-white bg-orange-400 transition-all duration-200 shadow backdrop-blur-lg;
+  @apply p-2 border-orange-400 border-2 rounded-md text-white bg-orange-400 transition-all duration-200 backdrop-blur-lg;
 }
 a:hover {
   @apply text-orange-400;
