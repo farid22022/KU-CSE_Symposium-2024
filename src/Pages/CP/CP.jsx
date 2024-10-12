@@ -3,6 +3,7 @@ import CPSection from "./CPsection/CPsection";
 import Banner from "./Banner/Banner";
 import EventDetails from "./EventDetails copy/EventDetails";
 import ContestDate from "./ContestDate/ContestDate";
+import ContactInfo from "./ContactInfo/ContactInfo";
 
 
 const CP = () => {
@@ -16,6 +17,7 @@ const CP = () => {
             <EventDetails></EventDetails>
             <ContestDate></ContestDate>
             <CPSection></CPSection>
+            <ContactInfo></ContactInfo>
             
             
             

@@ -1,4 +1,5 @@
 // import { motion } from "framer-motion";
+import PrizeSystem from '../PrizeSystem/PrizeSystem';
 import CPRules from './CPRules';
 import './CPSection.css'; // Make sure to create this CSS file for styling
 
@@ -32,7 +33,7 @@ const CPSection = () => {
           </motion.div>
         </div>
       </div> */}
-
+      <PrizeSystem></PrizeSystem>
       <CPRules></CPRules>
     </div>
   );
