@@ -27,7 +27,7 @@ const Banner = () => {
                     <div className="flex items-center space-x-2">
                         <p className="text-base text-white">
                             <img src={clock} className="inline-flex w-8 h-8 md:w-10 md:h-10" alt="Clock" /> 
-                            Registration Deadline: <span className="text-yellow-700">2 November 2024</span>
+                            PRE-Registration Deadline: <span className="text-yellow-700">30 October, 2024</span>
                         </p>
                     </div>
 

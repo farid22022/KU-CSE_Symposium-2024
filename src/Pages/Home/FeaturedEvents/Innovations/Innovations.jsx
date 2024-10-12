@@ -47,13 +47,13 @@ const Innovations = () => {
                     <div className="flex space-x-2 mt-4 sm:mt-6">
                         <div>
                             <p className="text-yellow-700 text-xs sm:text-sm md:text-base text-start">Date:</p>
-                            <p className="text-yellow-700 text-xs sm:text-sm md:text-base text-start">Prize:</p>
+                            {/* <p className="text-yellow-700 text-xs sm:text-sm md:text-base text-start">Prize:</p> */}
                             <p className="text-yellow-700 text-xs sm:text-sm md:text-base text-start">Location:</p>
                             <p className="text-yellow-700 text-xs sm:text-sm md:text-base text-start">Featured Projects:</p>
                         </div>
                         <div>
                             <p className=" text-xs sm:text-sm md:text-base text-start">November 9, 2024</p>
-                            <p className=" text-xs sm:text-sm md:text-base text-start">1st Prize: $500, 2nd Prize: $300</p>
+                            {/* <p className=" text-xs sm:text-sm md:text-base text-start">Champion: 5000 BDT + Certificate 2nd Prize: $300</p> */}
                             <p className=" text-xs sm:text-sm md:text-base text-start">Exhibition Hall, Innovation Center</p>
                             <p className=" text-xs sm:text-sm md:text-base text-start">AI, Robotics, and Next-Gen Technologies</p>
                         </div>
@@ -66,7 +66,9 @@ const Innovations = () => {
                             LEARN MORE
                         </a>
                         <a
-                            href="/innovations"
+                            href="https://forms.gle/KdZ4BuCSAZ61e17t7 "
+                            target="_blank" // Opens link in a new tab
+                            rel="noopener noreferrer"
                             className="inline-block bg-amber-600 text-white font-semibold py-2 px-6 rounded-md hover:bg-amber-700 transition text-center"
                         >
                             REGISTER !

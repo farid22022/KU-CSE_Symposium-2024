@@ -69,7 +69,10 @@ const Banner = () => {
                         Register
                       </summary>
                       <ul className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-                        <li><a href="#" className="hover:bg-gray-100 px-4 py-2">Innovation</a></li>
+                        <li><a href="https://forms.gle/KdZ4BuCSAZ61e17t7 "
+                          target="_blank" // Opens link in a new tab
+                          rel="noopener noreferrer" 
+                          className="hover:bg-gray-100 px-4 py-2">Innovation</a></li>
                         <li><a href="#" className="hover:bg-gray-100 px-4 py-2">Contest Programming</a></li>
                         <li><a href="#" className="hover:bg-gray-100 px-4 py-2">Datathon</a></li>
                       </ul>
@@ -152,7 +155,10 @@ const Banner = () => {
                         Register
                       </summary>
                       <ul className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-                        <li><a href="#" className="hover:bg-gray-100 px-4 py-2">Innovation</a></li>
+                        <li><a href="https://forms.gle/KdZ4BuCSAZ61e17t7 "
+                          target="_blank" // Opens link in a new tab
+                          rel="noopener noreferrer" 
+                          className="hover:bg-gray-100 px-4 py-2">Innovation</a></li>
                         <li><a href="#" className="hover:bg-gray-100 px-4 py-2">Contest Programming</a></li>
                         <li><a href="#" className="hover:bg-gray-100 px-4 py-2">Datathon</a></li>
                       </ul>
@@ -235,7 +241,10 @@ const Banner = () => {
                         Register
                       </summary>
                       <ul className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-                        <li><a href="#" className="hover:bg-gray-100 px-4 py-2">Innovation</a></li>
+                        <li><a href="https://forms.gle/KdZ4BuCSAZ61e17t7 "
+                          target="_blank" // Opens link in a new tab
+                          rel="noopener noreferrer" 
+                          className="hover:bg-gray-100 px-4 py-2">Innovation</a></li>
                         <li><a href="#" className="hover:bg-gray-100 px-4 py-2">Contest Programming</a></li>
                         <li><a href="#" className="hover:bg-gray-100 px-4 py-2">Datathon</a></li>
                       </ul>
@@ -315,7 +324,10 @@ const Banner = () => {
                         Register
                       </summary>
                       <ul className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-                        <li><a href="#" className="hover:bg-gray-100 px-4 py-2">Innovation</a></li>
+                        <li><a href="https://forms.gle/KdZ4BuCSAZ61e17t7 "
+                          target="_blank" // Opens link in a new tab
+                          rel="noopener noreferrer" 
+                          className="hover:bg-gray-100 px-4 py-2">Innovation</a></li>
                         <li><a href="#" className="hover:bg-gray-100 px-4 py-2">Contest Programming</a></li>
                         <li><a href="#" className="hover:bg-gray-100 px-4 py-2">Datathon</a></li>
                       </ul>

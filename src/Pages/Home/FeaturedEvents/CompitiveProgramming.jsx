@@ -1,76 +1,30 @@
-
-
-// import Button from "../../../Shared/Buttons/Button";
-// import image from "./../../../../public/Banner/data3.jpg";
-// import "./Compitive.css";
-
-// const CompitiveProgramming = () => {
-//     return (
-//         <div className="flex flex-col md:flex-row backImageCP p-5 md:p-20 space-y-5 md:space-y-0 md:space-x-3 justify-around">
-            
-//             {/* Text Section */}
-//             <div>
-//                 <div className="p-5 md:p-10 bg-slate-400 opacity-80 rounded-xl text-black border-gray-200">
-//                     <p className="text-base md:text-base">Test your coding skills by solving complex problems in a timed competition.</p>
-//                     <div className="flex space-x-2">
-//                         <div>
-//                             <p className="text-sm md:text-base text-start">Date:</p>
-//                             <p className="text-sm md:text-base text-start">Prizes:</p>
-//                             <p className="text-sm md:text-base text-start">Location:</p>
-//                             <p className="text-sm md:text-base text-start">Languages:</p>
-//                         </div>
-//                         <div>
-//                             <p className="text-yellow-700  text-start">November 9, 2024</p>
-//                             <p className="text-yellow-700  text-start">1st Prize: $500, 2nd Prize: $300</p>
-//                             <p className="text-yellow-700  text-start">Computer Lab, Tech Block</p>
-//                             <p className="text-yellow-700  text-start">C, C++, Java, Python</p>
-//                         </div>
-//                     </div>
-//                     <div className="mt-5">
-//                         <Button />
-//                     </div>
-//                 </div>
-//             </div>
-            
-//             {/* Image Section */}
-//             <div className="flex justify-center md:justify-end">
-//                 <img className="w-full max-w-sm p-5" src={image} alt="Competitive Programming" />
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default CompitiveProgramming;
-
-import image from "./../../../../public/Banner/data3.jpg";
+import { motion } from 'framer-motion'; // Make sure to import motion if using framer-motion
+import image from "./../../../../public/Banner/ImageOfCP.jpg";
 import "./Compitive.css";
 
 const CompitiveProgramming = () => {
     return (
-        <div className="flex flex-col md:flex-row backImageCP p-5 sm:p-8 md:p-20 space-y-5 md:space-y-0 md:space-x-3 justify-around">
-            {/* Image Section */}
-            <div className="flex justify-center md:justify-start w-full md:w-1/2">
-                <img className="w-full max-w-xs sm:max-w-sm p-5" src={image} alt="Competitive Programming" />
-            </div>
+        <div className="flex flex-col md:flex-row lg:flex-row lg:space-x-6 backImageCP p-4 sm:p-6 md:p-20 space-y-5 md:space-y-8 justify-around items-center min-h-screen">
+            
             {/* Text Section */}
-            <div className="w-full md:w-1/2">
-                <div className="p-5 sm:p-8 md:p-10 bg-slate-400 opacity-80 rounded-xl text-black border-gray-200">
-                    <p className="text-sm sm:text-base md:text-lg">Test your coding skills by solving complex problems in a timed competition.</p>
+            <div className="w-full lg:w-1/2 flex flex-col justify-center h-full">
+                <div className="sm:p-6 md:p-10 bg-slate-400 opacity-80 rounded-xl text-black border-gray-200 h-full flex flex-col justify-center py-8">
+                    <p className="text-sm sm:text-base md:text-lg">
+                        Join industry leaders as they share their insights and innovations in technology and data.
+                    </p>
                     <div className="flex space-x-2 mt-4 sm:mt-6">
                         <div>
                             <p className="text-yellow-700 text-xs sm:text-sm md:text-base text-start">Date:</p>
-                            <p className="text-yellow-700 text-xs sm:text-sm md:text-base text-start">Prizes:</p>
                             <p className="text-yellow-700 text-xs sm:text-sm md:text-base text-start">Location:</p>
-                            <p className="text-yellow-700 text-xs sm:text-sm md:text-base text-start">Languages:</p>
+                            <p className="text-yellow-700 text-xs sm:text-sm md:text-base text-start">Networking:</p>
                         </div>
                         <div>
-                            <p className=" text-xs sm:text-sm md:text-base text-start">November 9, 2024</p>
-                            <p className=" text-xs sm:text-sm md:text-base text-start">1st Prize: $500, 2nd Prize: $300</p>
-                            <p className=" text-xs sm:text-sm md:text-base text-start">Computer Lab, Tech Block</p>
-                            <p className=" text-xs sm:text-sm md:text-base text-start">C, C++, Java, Python</p>
+                            <p className="text-xs sm:text-md md:text-base text-start">November 9, 2024</p>
+                            <p className="text-xs sm:text-md md:text-base text-start">Computer Lab, CSE Discipline</p>
+                            <p className="text-xs sm:text-md md:text-base text-start">C,C++,Java,Python</p>
                         </div>
                     </div>
-                    <div className="mt-5 flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2"> {/* Flex container for responsiveness */}
+                    <div className="mt-5 flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
                         <a
                             href="/cp"
                             className="inline-block bg-amber-600 text-white font-semibold py-2 px-6 rounded-md hover:bg-amber-700 transition text-center"
@@ -78,19 +32,29 @@ const CompitiveProgramming = () => {
                             LEARN MORE
                         </a>
                         <a
-                            href="/cp"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSc19e1XkB1hkc4xlPjstSgiqGFJ9QKIElyblW-Xot-YNYReog/viewform "
+                            target="_blank" // Opens link in a new tab
+                            rel="noopener noreferrer" 
                             className="inline-block bg-amber-600 text-white font-semibold py-2 px-6 rounded-md hover:bg-amber-700 transition text-center"
                         >
-                            REGISTER !
+                            REGISTER!
                         </a>
                     </div>
                 </div>
             </div>
             
-            
+            {/* Image Section */}
+            <div className="flex justify-center items-center w-full lg:w-1/2 h-full">
+                <motion.img
+                    animate={{ scaleY: 0.70,y:'-10px' }}
+                    transition={{ type: "spring", damping: 70, duration: 1 }}
+                    className="w-full h-full object-cover md:rounded-2xl"
+                    src={image}
+                    alt="Competitive Programming"
+                />
+            </div>
         </div>
     );
 };
 
 export default CompitiveProgramming;
-

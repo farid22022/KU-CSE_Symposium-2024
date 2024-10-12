@@ -1,9 +1,7 @@
-
-
 const CPRules = () => {
   return (
-    <div className=" border-violet-500 border-2 rounded-sm text-white py-10 px-6">
-      <h2 className="text-3xl sm:text-4xl md:text-2xl  font-bold text-center mb-6">Competitive Programming Rules</h2>
+    <div className="border-violet-500 border-2 rounded-sm text-white py-6 px-4 sm:py-8 sm:px-6 md:py-10 md:px-8">
+      <h2 className="text-3xl sm:text-4xl md:text-2xl font-bold text-center mb-6">Competitive Programming Rules</h2>
       <div className="max-w-4xl mx-auto">
         <ul className="list-disc space-y-4 pl-6 text-sm sm:text-base md:text-lg">
           <li>
