@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import About from "./About/About";
+// import CommitteeAndVolunteerList from "./CommitteeAndVolunteerList/CommitteeAndVolunteerList";
 
 
 const AboutUs = () => {
@@ -9,6 +10,7 @@ const AboutUs = () => {
                 <title>AboutUs | KUCSE-Symposium-2024</title>
             </Helmet>
             {/* <Banner2></Banner2> */}
+            {/* <CommitteeAndVolunteerList></CommitteeAndVolunteerList> */}
             <About></About>
             
         </div>

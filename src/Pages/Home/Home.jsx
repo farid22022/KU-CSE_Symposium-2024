@@ -12,6 +12,7 @@ import CeoTalk from './FeaturedEvents/CEO/CeoTalk';
 import Innovations from './FeaturedEvents/Innovations/Innovations';
 import FrequentlyAQ from './FAQ/FrequentlyAQ';
 import Sponsorship from './Sponsor/Sponsorship';
+// import Banner2 from './Banner2/Banner2';
 
 const Home = () => {
     return (
@@ -22,8 +23,15 @@ const Home = () => {
             <Banner></Banner>
             {/* <h2 className="text-center pt-20 text-2xl">Home</h2> */}
             {/* <Banner></Banner> */}
-            <h1 className="text-5xl text-yellow-700 p-5 text-center sm:pb-2 md:pb-5 font-bold">Welcome</h1>
+            {/* <h1 className="text-5xl text-yellow-700 p-5 text-center sm:pb-2 md:pb-5 font-bold">Welcome</h1> */}
             <Schedule></Schedule>
+            <p className="text-xl md:text-2xl lg:text-3xl font-semibold text-bold text-center">
+                <span className="text-yellow-700">Synergy - X 2024: </span>Time to
+                Innovate is Ticking Down!
+            </p>
+            <p className="text-lg md:text-xl lg:text-2xl font-semibold text-white p-3 text-center"> {/* Center text */}
+                Join us for a groundbreaking event in tech and ideas!
+            </p>
             {/* <Welcome></Welcome> */}
             <Events></Events>
             <h1 className="text-5xl text-yellow-700 p-5 font-bold text-center pt-20">Symposium Talk</h1>

@@ -3,7 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 
+  /* "Poppins", */
+   /* sans-serif */
+   ubuntu
+   ;
   font-style: normal;
   overflow-x: hidden;
   overflow-x: clip;
@@ -19,7 +23,8 @@ a,
 .logo {
   font-family: 
   /* "Mooli", */
-   sans-serif;
+   /* sans-serif; */
+   ubuntu
 }
 button {
   @apply p-2   hover:border-orange-400 rounded-md hover:text-white hover:bg-orange-400 transition-all duration-200   ;

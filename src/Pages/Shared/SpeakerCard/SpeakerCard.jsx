@@ -6,7 +6,7 @@ const SpeakerCard = ({ speaker,index }) => {
         animate={{scale:1,opacity:1}}
         transition={{type:'spring',duration:1.8,delay:index*1.1}}
         > {/* Reduced padding */}
-            <div className="card bg-slate-950 w-60 h-60 shadow-2xl shadow-black">
+            <div className="card bg-slate-900 w-60 h-60 shadow-2xl shadow-black">
                 <figure className="px-10 pt-10">
                     <img
                         src={speaker.image}
