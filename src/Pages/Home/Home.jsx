@@ -12,6 +12,7 @@ import CeoTalk from './FeaturedEvents/CEO/CeoTalk';
 import Innovations from './FeaturedEvents/Innovations/Innovations';
 import FrequentlyAQ from './FAQ/FrequentlyAQ';
 import Sponsorship from './Sponsor/Sponsorship';
+import SlidingCard from './eventsCard/eventsCard';
 // import Banner2 from './Banner2/Banner2';
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
                 <title>Home | KUCSE-Symposium-2024</title>
             </Helmet>
             <Banner></Banner>
+            {/* <SlidingCard></SlidingCard> */}
             {/* <h2 className="text-center pt-20 text-2xl">Home</h2> */}
             {/* <Banner></Banner> */}
             {/* <h1 className="text-5xl text-yellow-700 p-5 text-center sm:pb-2 md:pb-5 font-bold">Welcome</h1> */}

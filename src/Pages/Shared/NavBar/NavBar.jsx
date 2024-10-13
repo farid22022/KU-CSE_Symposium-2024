@@ -21,17 +21,17 @@ const NavBar = () => {
 
     const navOptions = (
         <div className="flex flex-col sm:flex-row pt-5 space-y-2 sm:space-y-0 sm:space-x-4">
-            <li><a className=" hover:shadow-inner hover:shadow-white transition-all duration-700" href="/">Home</a></li>
-            <li><a className=" hover:shadow-inner hover:shadow-white transition-all duration-700" href="/ps">Symposium Talk</a></li>
-            <li><a className=" hover:shadow-inner hover:shadow-white transition-all duration-700" href="/innovations">Innovation Showcasing</a></li>
-            <li><a className=" hover:shadow-inner hover:shadow-white transition-all duration-700" href="/cp">Programming Contest </a></li>
-            <li><a className=" hover:shadow-inner hover:shadow-white transition-all duration-700" href="/datathon">Datathon</a></li>
-            <li><a className=" hover:shadow-inner hover:shadow-white transition-all duration-700" href="/about">About Us</a></li>
+            <li><a className=" hover:shadow-inner hover:shadow-white text-lg font-semibold transition-all duration-700" href="/">Home</a></li>
+            <li><a className=" hover:shadow-inner hover:shadow-white text-lg font-semibold transition-all duration-700" href="/ps">Symposium Talk</a></li>
+            <li><a className=" hover:shadow-inner hover:shadow-white text-lg font-semibold transition-all duration-700" href="/innovations">Innovation Showcasing</a></li>
+            <li><a className=" hover:shadow-inner hover:shadow-white text-lg font-semibold transition-all duration-700" href="/cp">Programming Contest </a></li>
+            <li><a className=" hover:shadow-inner hover:shadow-white text-lg font-semibold transition-all duration-700" href="/datathon">Datathon</a></li>
+            <li><a className=" hover:shadow-inner hover:shadow-white text-lg font-semibold transition-all duration-700" href="/about">About Us</a></li>
         </div>
     );
 
     return (
-        <div className={`navbar fixed z-10 max-w-screen text-white transition-all duration-500 -translate-y-4 ${scroll ? "bg-black" : "bg-opacity-0"}`}>
+        <div className={`navbar fixed z-10 max-w-screen text-white transition-all duration-500 -translate-y-4 ${scroll ? "backdrop-blur-sm" : "bg-opacity-0"}`}>
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

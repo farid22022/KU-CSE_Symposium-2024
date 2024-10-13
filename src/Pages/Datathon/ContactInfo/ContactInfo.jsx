@@ -11,20 +11,20 @@ const ContactInfo = () => {
             <h3 className="text-lg lg:text-xl font-semibold text-sky-300">
               Program Convenor
             </h3>
-            <p className="text-white">Rabiul Islam Rabi </p>
+            <p className="text-white">Faisal Habibi Raim </p>
             <p className="text-white">
               Email:{" "}
               <a
-                href="mailto:rabiul2034@cseku.ac.bd"
+                href="mailto:Not Provided"
                 className="text-blue-600 hover:underline"
               >
-                rabiul2034@cseku.ac.bd
+                Not Provided
               </a>
             </p>
             <p className="text-yellow-700">
               Phone:{" "}
-              <a href="tel:+8801608-077170" className="text-blue-600 hover:underline">
-                +8801608-077170
+              <a href="tel:+01750-300372" className="text-blue-600 hover:underline">
+                +01750-300372
               </a>
             </p>
           </div>
@@ -34,20 +34,20 @@ const ContactInfo = () => {
             <h3 className="text-lg lg:text-xl font-semibold text-sky-300">
               Program General Secretary
             </h3>
-            <p className="text-white">Habibur Rahman Shihab</p>
+            <p className="text-white">Saurav Das</p>
             <p className="text-white">
               Email:{" "}
               <a
-                href="mailto:hrshihab2016@cseku.ac.bd"
+                href="mailto:Not Provided"
                 className="text-blue-600 hover:underline"
               >
-                hrshihab2016@cseku.ac.bd
+                Not Provided
               </a>
             </p>
             <p className="text-yellow-700">
               Phone:{" "}
-              <a href="tel:+8801878-776144" className="text-blue-600 hover:underline">
-                +8801878-776144
+              <a href="tel:+8801890-408061" className="text-blue-600 hover:underline">
+                +8801890-408061
               </a>
             </p>
           </div>

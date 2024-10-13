@@ -1,5 +1,5 @@
-import ku1 from "./../../../../public/Banner2/NewBanner2.jpg"
 import "./Banner.css"
+import ku1 from "./../../../../public/Banner2/NewBanner2.jpg"
 import { motion } from "framer-motion";
 import dateLogo from "./../../../../public/logo/schedule.png"
 import Typewriter from 'typewriter-effect';

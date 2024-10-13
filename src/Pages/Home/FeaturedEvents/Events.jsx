@@ -1,12 +1,16 @@
-import EventMan from "./../../../../public/Banner2/EventMan1.png";
+import EventMan from "./../../../../public/Banner2/ShazidVai18.png";
 import { motion } from "framer-motion";
 
 const Events = () => {
     return (
-        <div className="flex flex-col lg:flex-row justify-evenly items-center px-4 lg:px-0 py-8">
+        <div className="flex flex-col lg:flex-row justify-evenly items-center px-4 lg:px-4 py-8 ">
             <div>
-                <ul className="text-lg lg:text-xl font-bold text-white space-y-4 lg:space-y-6 md:p-12">
-                    <li className="flex items-center">
+                <ul className="text-lg lg:text-xl font-bold text-white  space-y-4 lg:space-y-6 md:p-12">
+                    <motion.li className="flex items-center "
+                        initial={{x:'-10px',opacity:0}}
+                        animate={{x:'0px',opacity:1}}
+                        transition={{delay:1,duration:2,type:'spring',stiffness:350}}
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"
@@ -18,8 +22,12 @@ const Events = () => {
                             />
                         </svg>
                         Explore the most exciting competitions and opportunities to engage with industry experts.
-                    </li>
-                    <li className="flex items-center">
+                    </motion.li>
+                    <motion.li className="flex items-center"
+                        initial={{x:'-10px',opacity:0}}
+                        animate={{x:'0px',opacity:1}}
+                        transition={{delay:1.5,duration:2,type:'spring',stiffness:350}}
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"
@@ -31,8 +39,12 @@ const Events = () => {
                             />
                         </svg>
                         Participate in a range of thrilling competitions designed to challenge and inspire.
-                    </li>
-                    <li className="flex items-center">
+                    </motion.li>
+                    <motion.li className="flex items-center"
+                        initial={{x:'-10px',opacity:0}}
+                        animate={{x:'0px',opacity:1}}
+                        transition={{delay:2,duration:2,type:'spring',stiffness:350}}
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"
@@ -44,8 +56,12 @@ const Events = () => {
                             />
                         </svg>
                         Test your skills in Competitive Programming and Datathons.
-                    </li>
-                    <li className="flex items-center">
+                    </motion.li>
+                    <motion.li className="flex items-center"
+                        initial={{x:'-10px',opacity:0}}
+                        animate={{x:'0px',opacity:1}}
+                        transition={{delay:2.5,duration:2,type:'spring',stiffness:350}}
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"
@@ -57,8 +73,12 @@ const Events = () => {
                             />
                         </svg>
                         Showcase your innovations to a broader audience.
-                    </li>
-                    <li className="flex items-center">
+                    </motion.li>
+                    <motion.li className="flex items-center"
+                        initial={{x:'-10px',opacity:0}}
+                        animate={{x:'0px',opacity:1}}
+                        transition={{delay:3,duration:2,type:'spring',stiffness:350}}
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"
@@ -70,8 +90,12 @@ const Events = () => {
                             />
                         </svg>
                         Attend expert talks and gain insights from industry leaders.
-                    </li>
-                    <li className="flex items-center">
+                    </motion.li>
+                    <motion.li className="flex items-center"
+                        initial={{x:'-10px',opacity:0}}
+                        animate={{x:'0px',opacity:1}}
+                        transition={{delay:3.5,duration:2,type:'spring',stiffness:350}}
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"
@@ -83,8 +107,12 @@ const Events = () => {
                             />
                         </svg>
                         Connect with like-minded individuals and network with professionals.
-                    </li>
-                    <li className="flex items-center">
+                    </motion.li>
+                    <motion.li className="flex items-center"
+                        initial={{x:'-10px',opacity:0}}
+                        animate={{x:'0px',opacity:1}}
+                        transition={{delay:4,duration:2,type:'spring',stiffness:350}}
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"
@@ -96,23 +124,24 @@ const Events = () => {
                             />
                         </svg>
                         Push boundaries, create new possibilities, and be part of something extraordinary!
-                    </li>
+                    </motion.li>
                 </ul>
             </div>
-            <div className="mt-8 lg:mt-0 lg:ml-8">
+            <div className="mt-8 lg:mt-0 lg:ml-8 ">
                 <motion.img
-                    className="h-[240px] lg:h-[340px] object-contain"
+                    className="h-[240px] lg:h-[340px] object-contain lg:mr-10"
                     initial={{ scale: 0.4, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
+                    animate={{ scale: 1.2, opacity: 1 }}
                     transition={{
                         type: "spring",
-                        duration: 1.5,
-                        delay: 1.5,
+                        duration: 2.5,
+                        delay: 2.5,
                         stiffness: 70,
                     }}
                     src={EventMan}
                     alt="Event Banner"
                 />
+                <p className="text-2xl mt-6 font-bold text-yellow-700 text-center">Muntaseer Hafiz Sajid</p>
             </div>
         </div>
     );

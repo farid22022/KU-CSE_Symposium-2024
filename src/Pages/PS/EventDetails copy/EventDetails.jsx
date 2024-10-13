@@ -73,8 +73,8 @@ const EventDetails = () => {
               {/* <h2 className="text-lg font-bold text-yellow-700">Register</h2> */}
               <a
                 href="https://forms.gle/2W3AGyuvKv6YWMMK8 "
-              target="_blank" // Opens link in a new tab
-              rel="noopener noreferrer"
+                target="_blank" // Opens link in a new tab
+                rel="noopener noreferrer"
                 className="inline-block bg-amber-600 text-white font-semibold py-2 px-6 rounded-md hover:bg-amber-700 transition text-center"
             >
                 REGISTER !
