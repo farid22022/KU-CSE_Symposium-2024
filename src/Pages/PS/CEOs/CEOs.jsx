@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ImageSlider from "./../mageSlider"; 
+import ImageSlider from "../ImageSlider"; 
 
 const CEOs = () => {
   const [persons, setPersons] = useState([]);

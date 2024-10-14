@@ -2,9 +2,9 @@ import imageO from "./../../../../public/logo/KMA-Sir-removebg-preview.png";
 
 const PersonCard = ({ schedule, speaker, company, position, topic, linkedin, image }) => {
     return (
-        <div className="card bg-[#2b0d3b] max-w-xs sm:max-w-md md:max-w-lg shadow-2xl shadow-black mx-auto my-4">
+        <div className="card max-w-xs sm:max-w-md md:max-w-lg shadow-2xl shadow-black mx-auto my-4">
             <figure>
-                <img className="w-2/3 p-3 md:w-1/2 mx-auto rounded-full  hover-text-xl" src={image} alt={speaker} />
+                <img className="w-2/3 p-1 md:w-1/2 mx-auto rounded-full object-cover" src={image} alt={speaker} />
             </figure>
             <div className="card-body bg-slate-900 rounded-b-xl text-start p-4">
                 <h2 className="card-title text-yellow-700 text-lg md:text-xl ">{speaker}</h2>

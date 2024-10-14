@@ -1,7 +1,8 @@
 import { Helmet } from "react-helmet-async";
 import Overview from "./Overview/Overview";
 import Banner from "./Banner/Banner";
-import ImageSlider from "./mageSlider";
+import ImageSlider from "./ImageSlider";
+import Program from "./Program/program";
 import EventDetails from "./EventDetails copy/EventDetails";
 import ContactInfo from "./ContactInfo/ContactInfo";
 import Gallery from "./Gallery/Gallery";
@@ -18,15 +19,14 @@ const PS = () => {
                 <Banner></Banner>
             </div>
             {/* <h2 className="text-center text-5xl font-bold text-yellow-700 mb-10">Symposium Talk</h2> */}
-            <EventDetails></EventDetails>
-            
-            <Overview></Overview>
-            
+            {/* <EventDetails></EventDetails> */}
             <ImageSlider></ImageSlider>
-            <ContactInfo></ContactInfo>
+            <Program></Program>
+            {/* <Overview></Overview> */}
             
             
-            
+            {/* <ContactInfo></ContactInfo> */}
+
         </div>
     );
 };
