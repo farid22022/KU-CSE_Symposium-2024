@@ -31,7 +31,7 @@ const NavBar = () => {
     );
 
     return (
-        <div className={`container mx-auto z-[70] px-5 flex justify-between items-center my-5 fixed top-0 left-1/2 transform -translate-x-1/2 text-white transition-all duration-500 -translate-y-4 ${scroll ? "bg-gradient-to-r from-orange-500 to-red-500 mt-4" : "bg-opacity-0"}`}>
+        <div className={`container mx-auto z-[70] px-5 flex justify-between items-center my-5 fixed top-0 left-1/2 transform -translate-x-1/2 text-white transition-all duration-500 -translate-y-4 ${scroll ? "bg-gradient-to-r from-orange-500 to-red-500 mt-4 rounded-b-2xl" : "bg-opacity-0"}`}>
             <div className="w-2/12">
                 {/* First image: Visible on lg and larger, hidden on sm and md */}
                 <div>

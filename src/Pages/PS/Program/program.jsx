@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 const ProgramSection = () => {
   const [activeDay, setActiveDay] = useState(1);
   const [persons, setPersons] = useState([]);
+  const [isAutoSwitching, setIsAutoSwitching] = useState(true);
 
   useEffect(() => {
     // Fetch data from a JSON or API
@@ -11,9 +12,21 @@ const ProgramSection = () => {
       .then((data) => setPersons(data));
   }, []);
 
+  useEffect(() => {
+    let interval;
+    if (isAutoSwitching) {
+      interval = setInterval(() => {
+        setActiveDay((prevDay) => (prevDay < 8 ? prevDay + 1 : 1)); // Cycle through days
+      }, 2000);
+    }
+    return () => clearInterval(interval); // Clean up interval on unmount or switch
+  }, [isAutoSwitching, activeDay]); // Depend on activeDay to restart from a selected day
+
   const showDay = (day, event) => {
     event.preventDefault();
-    setActiveDay(day);
+    setActiveDay(day);  // Update the active day
+    setIsAutoSwitching(false); // Temporarily stop auto-switching to reset
+    setTimeout(() => setIsAutoSwitching(true), 200); // Resume auto-switching after a short delay
   };
 
   return (
@@ -38,9 +51,9 @@ const ProgramSection = () => {
         </div>
 
         {/* Event Detail */}
-        <div className="mt-8">
+        <div className="mt-8 mx-auto">
           {/* Introduction */}
-          <div className={`day bg-white mt-8 p-6 border-2 border-gray-400 rounded-lg ${activeDay === 1 ? '' : 'hidden'}`}>
+          <div className={`day bg-white shadow-lg mt-8 p-6 border-2 border-gray-400 rounded-lg ${activeDay === 1 ? '' : 'hidden'}`}>
             <h3 className="text-xl font-semibold mb-3">Introduction</h3>
             <p className="text-gray-500">By VC and teachers</p>
           </div>
@@ -50,18 +63,18 @@ const ProgramSection = () => {
             <div
               key={index}
               id={`day-${index + 2}`} // Adjusted for index starting after introduction
-              className={`day bg-white mt-8 p-6 border-2 border-gray-400 rounded-lg ${activeDay === index + 2 ? '' : 'hidden'}`}
+              className={`shadow-lg day flex justify-center bg-white mt-8 p-6 border-2 border-gray-400 rounded-lg ${activeDay === index + 2 ? '' : 'hidden'}`}
             >
-              <div className="flex items-center text-left">
+              <div className="flex items-center text-left shadow-xl rounded-lg p-2">
                 {/* Speaker Image */}
                 <img
                   src={person.image}
-                  className="w-20 h-20 rounded-full mr-4 object-cover"
+                  className="w-28 h-28 rounded-full mr-4 object-cover"
                   alt={`Speaker: ${person.speaker}`}
                 />
                 {/* Session Info */}
                 <div>
-                  <h3 className="w-[90%] text-left text-xl font-semibold mb-3">{person.topic || 'Not Provided'}</h3>
+                  <h3 className="w-[90%] text-xl font-semibold mb-3">{person.topic || 'Not Provided'}</h3>
                   <div className="flex items-start justify-center flex-col space-y-2 text-sm text-gray-500">
                     <span className="flex">{person.speaker}</span>
                     <span className="flex">{person.position} at {person.company}</span>

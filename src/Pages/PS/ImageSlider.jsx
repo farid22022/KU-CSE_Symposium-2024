@@ -236,7 +236,7 @@ const SpeakerSlider = () => {
     if (speakers.length > 0) {
       interval = setInterval(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % speakers.length);
-      }, 1500);
+      }, 2000);
     }
 
     // Clear the interval when the component unmounts
@@ -260,7 +260,7 @@ const SpeakerSlider = () => {
       <div className="card max-w-xs sm:max-w-md md:max-w-lg shadow-black mx-auto my-4">
         <figure className='shadow-2xl'>
           <img
-            className="w-2/3 p-1 md:w-1/2 mx-auto rounded-full object-cover"
+            className="w-2/3 p-1 mx-auto rounded-full object-cover"
             src={image}
             alt={speaker}
           />
@@ -280,7 +280,7 @@ const SpeakerSlider = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="btn btn-primary">View LinkedIn</button>
+                <button className="px-2 py-1 bg-gradient-to-r from-orange-500 to-red-500 text-white font-semibold rounded-lg">View LinkedIn</button>
               </a>
             ) : (
               <button className="btn btn-primary" disabled>Coming Soon</button>

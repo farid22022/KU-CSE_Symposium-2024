@@ -87,7 +87,7 @@ const Banner = () => {
                               href="https://www.google.com/maps/place/Satyendra+Nath+Bose+Academic+Building/@22.802616,89.5321499,17z/data=!3m1!4b1!4m6!3m5!1s0x39ff8549472ab2c7:0x581022fe2caec6f6!8m2!3d22.8026111!4d89.5347248!16s%2Fg%2F11ddwhpz14?entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D" 
                               target="_blank" 
                               rel="noopener noreferrer" 
-                              className="font-semibold text-gray-300 text-sm md:text-base lg:text-lg"
+                              className="font-semibold text-gray-300 text-sm md:text-base lg:text-lg hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-orange-500 hover:to-red-500"
                             >
                               DR. Satyendra Nath Bose Academic Building, Khulna University
                           </a>
