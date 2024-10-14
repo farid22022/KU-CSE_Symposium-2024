@@ -44,11 +44,8 @@ const Banner = () => {
                       }}
                     >
                       <div className="text-white">
-                        <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-[#ad8ce5]">
-                          NATIONAL SYMPOSIUM ON INDUSTRY-ACADEMIA 
-                        </h3>
-                        <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-[#ad8ce5]">
-                          COLLABORATION FOR ICT-ENABLED BANGLADESH
+                        <h3 className="w-[90%] lg:w-[75%] text-center mx-auto text-xl md:text-2xl lg:text-3xl font-bold text-[#ad8ce5]">
+                          NATIONAL SYMPOSIUM ON INDUSTRY-ACADEMIA COLLABORATION FOR ICT-ENABLED BANGLADESH
                         </h3>
                       </div>
                     </motion.h1>
@@ -68,7 +65,7 @@ const Banner = () => {
                         className="flex items-center justify-center space-x-2"
                       >
                         <img src={dateLogo} alt="Date Logo" className="w-6 h-6 md:w-8 md:h-8" />
-                        <h4 className="font-semibold text-white text-sm md:text-base lg:text-lg">
+                        <h4 className="font-semibold text-gray-300 text-sm md:text-base lg:text-lg">
                           10-12 November, 2024
                         </h4>
                       </motion.div>
@@ -82,17 +79,19 @@ const Banner = () => {
                           duration: 2,
                           repeatType: "reverse",
                         }}
-                        className="flex items-center justify-center space-x-2 text-white mt-2"
+                        className="flex items-center justify-center space-x-1 text-white mt-2"
                       >
-                        <img src={mapLogo} alt="Location" className="w-10 h-10 lg:w-6 lg:h-6" />
-                        <a 
-                          href="https://www.google.com/maps/place/Satyendra+Nath+Bose+Academic+Building/@22.802616,89.5321499,17z/data=!3m1!4b1!4m6!3m5!1s0x39ff8549472ab2c7:0x581022fe2caec6f6!8m2!3d22.8026111!4d89.5347248!16s%2Fg%2F11ddwhpz14?entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D" 
-                          target="_blank" 
-                          rel="noopener noreferrer" 
-                          className="font-bold text-lg"
-                        >
-                          DR. Satyendra Nath Bose Academic Building, Khulna University
-                        </a>
+                        <img src={mapLogo} alt="Location" className="w-8 h-8 lg:w-6 lg:h-6" />
+                        <div className="w-fit">
+                          <a 
+                              href="https://www.google.com/maps/place/Satyendra+Nath+Bose+Academic+Building/@22.802616,89.5321499,17z/data=!3m1!4b1!4m6!3m5!1s0x39ff8549472ab2c7:0x581022fe2caec6f6!8m2!3d22.8026111!4d89.5347248!16s%2Fg%2F11ddwhpz14?entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D" 
+                              target="_blank" 
+                              rel="noopener noreferrer" 
+                              className="font-semibold text-gray-300 text-sm md:text-base lg:text-lg"
+                            >
+                              DR. Satyendra Nath Bose Academic Building, Khulna University
+                          </a>
+                        </div>
                       </motion.div>
 
                       {/* Dropdown using <details> and <summary> */}

@@ -28,7 +28,7 @@ const Home = () => {
             {/* <h1 className="text-5xl text-yellow-700 p-5 text-center sm:pb-2 md:pb-5 font-bold">Welcome</h1> */}
             <div className="relative pt-20 pb-40 lg:pb-60 xl:pb-72 2xl:pb-96">
                 <svg
-                    class="absolute w-full z-30 bottom-[-5px] md:bottom-[-20px] lg:bottom-[-28px] xl:bottom-[-40px] text-white"
+                    class="absolute w-full z-30 bottom-[-8px] md:bottom-[-20px] lg:bottom-[-28px] xl:bottom-[-40px] text-white"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 170.68 1440 149.32"
                 >
@@ -78,9 +78,9 @@ const Home = () => {
             </div>
             
             
-            <div className="w-screen border-2 border-yellow-600 pt-20 pb-40 lg:pb-56 xl:pb-64 2xl:pb-96 bg-white relative mx-auto text-center">
+            <div className="w-screen pt-20 pb-40 lg:pb-56 xl:pb-64 2xl:pb-96 bg-white relative mx-auto text-center">
                 <svg
-                    class="absolute w-full z-30 bottom-[-5px] sm:bottom-[-10px] md:bottom-[-20px] text-white"
+                    class="absolute w-full z-30 bottom-[-8px] sm:bottom-[-10px] md:bottom-[-20px] text-white"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 170.68 1440 149.32"
                     >
@@ -92,7 +92,7 @@ const Home = () => {
                 </svg>
                 <FrequentlyAQ></FrequentlyAQ>
             </div>
-            <div className="w-screen border-2 border-yellow-600 2xl:h-[70vh] pt-20 pb-40 lg:pb-56 xl:pb-64 2xl:pb-96 bg-[#f5f5f5] relative mx-auto text-center">
+            <div className="w-screen 2xl:h-[70vh] pt-20 pb-40 lg:pb-56 xl:pb-64 2xl:pb-96 bg-[#f5f5f5] relative mx-auto text-center">
                 <Sponsorship></Sponsorship>
                 <svg
                     class="absolute w-full z-30 bottom-0 sm:bottom-[-5px] md:bottom-[-20px] lg:bottom-[-28px] text-white"
