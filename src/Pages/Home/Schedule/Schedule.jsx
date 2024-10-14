@@ -41,43 +41,40 @@ const Schedule = () => {
   }, []);
 
   return (
-    <motion.div className="flex flex-col items-center justify-center lg:-mt-28  rounded-lg shadow-lg "
-    initial={{scale:.6,opacity:0,y:'-5px'}}
+    <motion.div className="container mx-auto flex flex-col items-center justify-center rounded-lg"
+    initial={{scale:.6,opacity:0,y:'5px'}}
     animate={{scale:1,opacity:1,y:'5px'}}
     transition={{type:'spring',delay:1,duration:2,stiffness:350,damping:70}}
     > 
   {/* Card-like appearance with reduced padding and added rounded corners and shadow */}
   
-      <div className="grid grid-flow-col lg:gap-8 sm:gap-5 text-center lg:px-10 sm:px-5 md:p-5 py-5 -translate-y-16 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 auto-cols-max rounded-xl"> {/* Reduced gap between grid items */}
-        <div className="flex flex-col sm:p-2 md:p-2 lg:p-4 bg-neutral rounded-box text-neutral-content">
-          <span className="countdown font-mono text-5xl lg:font-bold text-white"> {/* Slightly reduced font size for more compact look */}
+      <div className="grid grid-flow-col gap-2 sm:gap-5 lg:gap-8 p-3 md:p-5 lg:p-7 text-center translate-y-1 auto-cols-max rounded-xl font-semibold text-black"> {/* Reduced gap between grid items */}
+        <div className="flex flex-col p-2 bg-[#37a3cf] sm:p-2 lg:p-4 rounded-box font-semibold">
+          <span className="countdown font-mono text-2xl md:text-3xl lg:text-5xl lg:font-bold "> {/* Slightly reduced font size for more compact look */}
             <span style={{ "--value": timeLeft.days }}></span>
           </span>
           <span className="text-xs md:text-sm">days</span> {/* Adjusted label size for compactness */}
         </div>
-        <div className="flex flex-col sm:p-2 md:p-2 lg:p-4 bg-neutral rounded-box text-neutral-content">
-          <span className="countdown font-mono text-5xl lg:font-bold text-white">
+        <div className="flex flex-col p-2 bg-[#59d9e3] sm:p-2 lg:p-4 rounded-box">
+          <span className="countdown font-mono text-2xl md:text-3xl lg:text-5xl lg:font-bold ">
             <span style={{ "--value": timeLeft.hours }}></span>
           </span>
           <span className="text-xs md:text-sm">hours</span>
         </div>
-        <div className="flex flex-col sm:p-2 md:p-2 lg:p-4 bg-neutral rounded-box text-neutral-content">
-          <span className="countdown font-mono text-5xl lg:font-bold text-white">
+        <div className="flex flex-col p-2 bg-[#31afd3] sm:p-2 lg:p-4 rounded-box">
+          <span className="countdown font-mono text-2xl md:text-3xl lg:text-5xl lg:font-bold ">
             <span style={{ "--value": timeLeft.minutes }}></span>
           </span>
           <span className="text-xs md:text-sm">min</span>
         </div>
-        <div className="flex flex-col sm:p-2 md:p-2 lg:p-4 bg-neutral rounded-box text-neutral-content">
-          <span className="countdown font-mono text-5xl lg:font-bold text-white">
+        <div className="flex flex-col p-2 bg-[#df6951] sm:p-2 lg:p-4 rounded-box">
+          <span className="countdown font-mono text-2xl md:text-3xl lg:text-5xl lg:font-bold ">
             <span style={{ "--value": timeLeft.seconds }}></span>
           </span>
           <span className="text-xs md:text-sm">sec</span>
         </div>
       </div>
     </motion.div>
-
-
-
   );
 };
 

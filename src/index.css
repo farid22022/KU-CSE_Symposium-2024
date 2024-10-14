@@ -1,93 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:ital,wght@0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 body {
-  font-family: 
-  /* "Poppins", */
-   /* sans-serif */
-   ubuntu
-   ;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   overflow-x: hidden;
   overflow-x: clip;
 }
-
-h1,
-h2,
-h3,
-h4,
-h6,
-h5,
-a,
-.logo {
-  font-family: 
-  /* "Mooli", */
-   /* sans-serif; */
-   ubuntu
-}
-button {
-  @apply p-2   hover:border-orange-400 rounded-md hover:text-white hover:bg-orange-400 transition-all duration-200   ;
-}
-.btn {
-  @apply p-2   hover:border-orange-400  rounded-md hover:text-white hover:bg-orange-400 transition-all duration-200   ;
-}
-button.active {
-  @apply p-2 border-orange-400 border-2 rounded-md text-white bg-orange-400 transition-all duration-200 backdrop-blur-lg;
-}
-a:hover {
-  @apply text-orange-400;
-}
-
-a.active {
-  font-weight: bold;
-  @apply text-orange-500;
-}
-
-.container {
-  @apply w-11/12 mx-auto;
-}
-
-footer {
-  z-index: 1;
-  position: relative;
-}
-
-
-/* .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-} */
-
-/* .col {
-  flex: 25%;
-  max-width: 33.3%;
-  padding: 0 4px;
-
-}
-
-.col img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-  filter: grayscale(1) brightness(0.5);
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s linear;
-}
-
-.col img:hover {
-  filter: grayscale(0);
-}
-
-@media screen and (max-width: 700px) {
-  .col {
-    flex: 100%;
-    max-width: 100%;
-  }
-
-  .col img {
-    filter: grayscale(0) brightness(1);
-  }
-} */

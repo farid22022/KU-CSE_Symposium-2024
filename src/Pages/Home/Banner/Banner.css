@@ -1,8 +1,6 @@
 .backImageBanner {
-    background-image: url("./../../../../public/Banner2/NewBanner2");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("./NewBanner2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-
