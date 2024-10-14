@@ -3,16 +3,16 @@
       "schedule": "10:00 am-10:45 am",
       "speaker": "Mohammad Tawrit",
       "linkedin": "https://www.linkedin.com/in/mohammad-tawrit-b39655275/",
-      "company": " Bangladesh Research & Education Network (BdREN)·",
+      "company": " Bangladesh Research & Education Network (BdREN)",
       "position":"CEO",
       "topic": "Not Provided",
       "image": "https://www.bdren.net.bd/storage/team_member/8WnpRS0QY1L3Hd7pLskBW8C7Bl7smHYmaNqnKA14.jpg"
     },
     {
       "schedule": "10:50 am-11:35 am",
-      "speaker": "Engr. Md. Tomig UddinAhmed",
+      "speaker": "Engr. Md. Tomig Uddin Ahmed",
       "linkedin": "https://www.linkedin.com/in/engr-md-tomig-uddinahmed-06275837/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "company": " Planning Division, Ministry of Planning·",
+      "company": " Planning Division, Ministry of Planning",
       "position":"Senior System Analyst",
       "topic": "Not Provided",
       "image": "https://i.ibb.co.com/L670w3X/Engr-Md-Tomig-Uddin-Ahmed.jpg"
@@ -30,7 +30,7 @@
       "schedule": "12:30 pm-1:15 pm",
       "speaker": "Mohammad Oli Ahad",
       "linkedin": "https://www.linkedin.com/in/oliahad?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "company": " Intelligent Machines Limited·",
+      "company": " Intelligent Machines Limited",
       "position":"Founder and CEO",
       "topic": "Solving High Value Problems with AI",
       "image": "https://i.ibb.co.com/VHL3rj0/Mohammad-Oli-Ahad.jpg"
@@ -39,7 +39,7 @@
       "schedule": "2:35 pm-3:20 pm",
       "speaker": "Mahmud Hasan Rana",
       "linkedin": "https://www.linkedin.com/in/mahmud-hasan-rana-866abb21?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "company": "Oracle ",
+      "company": "Oracle",
       "position":"Infrastructure Manager",
       "topic": "Cloud Native and Future Ready Modernize Data and IT Infrastructure",
       "image": "https://i.ibb.co.com/5hCPr2J/Mahmud-Hosan-Rana.jpg"
@@ -50,11 +50,11 @@
       "linkedin": "https://www.linkedin.com/in/mohammadoli/",
       "company": "Dohatec ",
       "position":"Director (EGP)",
-      "topic": "Building the Government of Tomorrow: Collaborative Efforts Between the Software Industry and Government for Sustainable  National Developmen",
+      "topic": "Building the Government of Tomorrow: Collaborative Efforts Between the Software Industry and Government for Sustainable  National Development",
       "image": "https://i.ibb.co.com/SJFfbCp/Nazmul-Islam3.jpg"
     },
     {
-      "schedule": "3:25 pm-4:10 pm",
+      "schedule": "4:15 pm-5:00 pm",
       "speaker": "Md Sohel Rana",
       "linkedin": "https://www.linkedin.com/in/mdsohelrana?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "company": "NerdDevs ",
@@ -62,8 +62,5 @@
       "topic": "How I turned into an entrepreneur from programmer",
       "image": "https://i.ibb.co.com/fFyJc76/Md-Sohel-Rana.jpg"
     }
-    
-    
-    
-  ]
+]
   
