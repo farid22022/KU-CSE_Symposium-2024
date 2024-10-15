@@ -1,8 +1,6 @@
-import  { useState } from 'react';
-import "./frequently.css"
+import { useState } from 'react';
 
 const FrequentlyAQ = () => {
-
     const [activeIndex, setActiveIndex] = useState(null);
     const toggleFAQ = (index) => {
         setActiveIndex(activeIndex === index ? null : index);
@@ -31,18 +29,19 @@ const FrequentlyAQ = () => {
         }
     ];
 
-    
     return (
-        <div className="faq-container container mx-auto mt-28 p-10">
-            <h2 className="text-center text-4xl mx-auto mb-4 text-yellow-700 font-bold">Frequently Asked Questions</h2>
-            <div className="faq-list">
+        <div className="faq-container container mx-auto mt-28 p-10 shadow-md">
+            <h2 className="text-center text-4xl mx-auto mb-4 font-bold">Frequently Asked <span className='text-yellow-700'>Questions</span></h2>
+            <div className='w-full p-2 lg:w-1/2 space-y-2 mx-auto mt-8'>
                 {faqs.map((faq, index) => (
-                    <div key={index} className="faq-item">
-                        <div className="faq-question" onClick={() => toggleFAQ(index)}>
-                            <h4 className='text-xl '>{faq.question}</h4>
-                            <span>{activeIndex === index ? '-' : '+'}</span>
+                    <div key={index} className="collapse collapse-arrow shadow-md">
+                        <input type="checkbox" checked={activeIndex === index} onChange={() => toggleFAQ(index)} />
+                        <div className="collapse-title text-xl font-semibold">
+                            {faq.question}
                         </div>
-                        {activeIndex === index && <p className="faq-answer shadow-lg text-left bg-white">{faq.answer}</p>}
+                        <div className="collapse-content bg-white p-2 px-4">
+                            <p className="text-gray-500 text-left">{faq.answer}</p>
+                        </div>
                     </div>
                 ))}
             </div>
@@ -51,4 +50,3 @@ const FrequentlyAQ = () => {
 };
 
 export default FrequentlyAQ;
-

@@ -10,7 +10,8 @@ import PreliminaryRoundDetails from "./PreliminaryRoundDetails/PreliminaryRoundD
 import OnsiteFinalContestDetails from "./OnsiteFinalContestDetails/OnsiteFinalContestDetails";
 import DatathonRules from "./DatathonRules/DatathonRules";
 import ContactInfo from "./ContactInfo/ContactInfo";
-
+import EventDescription from "./eventDescription/eventDescription";
+import FAQ from "./FAQ/FAQ";
 
 const Datathon = () => {
     return (
@@ -19,30 +20,31 @@ const Datathon = () => {
                 <title>Datathon | KUCSE-Symposium-2024</title>
             </Helmet>
             <Banner></Banner>
-            <EventDetails></EventDetails>
+            {/* <EventDetails></EventDetails> */}
+            <EventDescription></EventDescription>
             <DatathonOverview></DatathonOverview>
-            <h2 className="text-2xl lg:text-3xl font-bold text-yellow-400 text-center">
+            {/* <h2 className="text-2xl lg:text-3xl font-bold text-yellow-400 text-center">
                 Step 1: Team Formation and Grooming Sessions
-            </h2>
-            <GroomingSessionStructure></GroomingSessionStructure>
+            </h2> */}
+            {/* <GroomingSessionStructure></GroomingSessionStructure>
             <h2 className="text-2xl lg:text-3xl font-bold text-yellow-400 text-center">
                 Step 2: Preliminary Round
-            </h2>
+            </h2> */}
             {/* <h2 className="text-center pt-20 text-5xl text-yellow-700 font-bold">Datathon</h2> */}
             {/* <Components></Components> */}
-            <PreliminaryRoundDetails></PreliminaryRoundDetails>
+            {/* <PreliminaryRoundDetails></PreliminaryRoundDetails>
             <h2 className="text-2xl lg:text-3xl font-bold text-yellow-400 text-center">
                 Step 3: Onsite Final Contest
-            </h2>
-            <OnsiteFinalContestDetails></OnsiteFinalContestDetails>
+            </h2> */}
+            {/* <OnsiteFinalContestDetails></OnsiteFinalContestDetails> */}
             {/* <h2 className="text-2xl lg:text-3xl font-bold text-yellow-400 text-center">
                 Prizes
             </h2> */}
             <PrizeSystem></PrizeSystem>
             {/* <Overview></Overview> */}
-            <DatathonRules></DatathonRules>
-            <ContactInfo></ContactInfo>
-
+            {/* <DatathonRules></DatathonRules> */}
+            {/* <ContactInfo></ContactInfo> */}
+            <FAQ></FAQ>
             
         </div>
     );

@@ -1,27 +1,26 @@
 import "./Banner.css";
 import map from "./../../../../public/logo/google-maps.png";
-import date from "./../../../../public/logo/calendar-symposium.png";
+import date from "./../../../../public/logo/calendar-black.png";
 import { Link } from "react-router-dom";
 
 const Banner = () => {
     return (
-        <section className="relative w-full bg-sky-400 mb-10 rounded-b-[5rem] text-center">
-            <div>
-                <div className="md:container mx-auto pt-20 px-3 pb-5 lg:pt-32 h-fit text center space-y-5">
-                    <h1 className="font-[900] text-xl sm:text-3xl md:text-4xl lg:text-5xl text-center">
-                        Symposium Talk - Insights and Innovations
-                    </h1>
-                    <p className="font-semibold text-base text-opacity-80 text-center">
-                        Where Industry Leaders Share their Vision
-                    </p>
-                    <p className="font-normal text-opacity-50 w-[95%] sm:w-3/4 mx-auto text-center">
-                        Join us for an exclusive CEO talk where leaders from top tech companies
-                        discuss emerging trends in data, AI, and innovation.
-                    </p>
-                    <div className="flex items-center justify-center gap-4">
-                    <img src={date} alt="Calendar" className="w-6 h-6" />
-                    <h3 className="font-bold text-sm">8 - 9 NOV, 2024</h3>
-                    </div>
+        <section className="relative  bg-sky-400 mb-10 rounded-b-[5rem] text-center">
+            <div className="md:container mx-autopt-20 px-3 pb-16 lg:pt-32 h-fit text center space-y-5">
+                <h1 className="font-[900] text-xl sm:text-3xl md:text-4xl lg:text-5xl text-center">
+                    Symposium Talk - Insights and Innovations
+                </h1>
+                <p className="font-semibold text-base text-opacity-80 text-center">
+                    Where Industry Leaders Share their Vision
+                </p>
+                <p className="font-normal text-opacity-50 w-[95%] sm:w-3/4 mx-auto text-center">
+                    Join us for an exclusive CEO talk where leaders from top tech companies
+                    discuss emerging trends in data, AI, and innovation.
+                </p>
+                <div className="flex items-center justify-center gap-4">
+                <img src={date} alt="Calendar" className="w-6 h-6" />
+                <h3 className="font-bold text-sm">8 - 9 NOV, 2024</h3>
+                </div>
                     <div className="flex items-center justify-center gap-4">
                     <img src={map} alt="Location" className="w-8 h-8 lg:w-6 lg:h-6" />
                     <a
@@ -31,8 +30,8 @@ const Banner = () => {
                     >
                         DR. Satyendra Nath Bose Academic Building, Khulna University
                     </a>
-                    </div>
-                    <div>
+                </div>
+                <div>
                     <div className="flex gap-4 w-fit mx-auto">
                         <a
                         className="bg-gradient-to-r from-orange-500 to-red-500 font-semibold text-white inline-block px-4 py-2 rounded-xl"
@@ -40,7 +39,6 @@ const Banner = () => {
                         >
                         Register Now!
                         </a>
-                    </div>
                     </div>
                 </div>
             </div>

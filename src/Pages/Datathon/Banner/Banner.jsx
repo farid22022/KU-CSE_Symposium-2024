@@ -1,74 +1,63 @@
 import "./Banner.css"
-import map from "./../../../../public/logo/map (1).png"
-import date from "./../../../../public/logo/schedule (1).png"
-// import map from "./../../../../public/logo/placeholder (1).png";
-// import date from "./../../../../public/logo/calendar.png";
-import clock from "./../../../../public/logo/clock.png";
+import map from "./../../../../public/logo/google-maps.png";
+import date from "./../../../../public/logo/calendar-black.png";
+import details from "./../../../../public/File/SynergyX_2024_Datathon_Competition.pdf";
 import { Link } from "react-router-dom";
 
 const Banner = () => {
     return (
-        <div className="backImage p-5">
-            <div className="space-y-5 text-center justify-center pt-14">
-                <p className="text-white text-2xl md:text-4xl font-bold text-center">
-                 <span className="text-yellow-700">Datathon </span> - Show Your Skills
+        <div className="relative  bg-violet-400 pt-20 px-3 pb-16 lg:pt-32 h-fit mb-10 rounded-b-[5rem] text-center">
+            <div className="text-center space-y-5 md:container mx-auto">
+                <h1 className="font-[900] text-5xl text-center">
+                    Synergy - <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">X</span> Datathon 2024
+                </h1>
+
+                <p className="font-semibold text-base text-opacity-80 text-center">
+                    Unleash Your Data Skills | Compete | Collaborate | Conquer
                 </p>
-                {/* <p className="text-yellow-700 text-lg">
-                Unleash Your Data Skills | Compete | Collaborate | Conquer
-                </p> */}
-                <p className="text-white text-sm md:text-base">
-                    organized by <span className="text-yellow-700 font-bold">Khulna University</span> and <span className="text-yellow-700 font-bold">CLUSTER</span>.
+
+                <p className="font-normal text-opacity-50 w-[95%] sm:w-3/4 mx-auto text-center">
+                    Unleash your data science potential. Join the competition and tackle
+                    real-world problems using cutting-edge technology.
                 </p>
-                
-                {/* <div className="flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-2">
-                    <img src={date} className="w-8 h-8 md:w-10 md:h-10" alt="Event Date" />
-                    <p className="text-base text-yellow-700"> 9 Nov, 2024</p>
-                </div> */}
-                {/* <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6">
-                    <div className="flex items-center space-x-2">
-                        <img src={date} className="w-8 h-8 md:w-10 md:h-10" alt="Event Date" />
-                        <p className="text-base text-white">Event Date: <span className="text-yellow-700">9 - 10, November 2024</span></p>
-                    </div>
 
-                    <div className="flex items-center space-x-2">
-                        <p className="text-base text-white">
-                            <img src={clock} className="inline-flex w-8 h-8 md:w-10 md:h-10" alt="Clock" /> 
-                            PRE-Registration Deadline: <span className="text-yellow-700">30 October, 2024</span>
-                        </p>
-                    </div>
-
-                    <div>
-                        <Link to="https://forms.gle/HHDTny838mYE15xh7" className="text-base text-yellow-700">
-                            <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded">
-                                Register Now
-                            </button>
-                        </Link>
-                    </div>
-                </div> */}
-
-                {/* <div className="text-white">
-                    <span className="text-yellow-700">Registration Fees:</span>  1500 BDT per group (Max. 3 students)
-                </div> */}
-                
-                {/* <div className="flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-2">
-                    <img src={map} className="w-8 h-8 md:w-10 md:h-10" alt="Location" />
-                    <p className="text-base text-yellow-700">
-                        DR. Satyendra Nath Bose Academic Building, Khulna University
-                    </p>
-                </div> */}
-
-                <div className="flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-2">
-                    <img src={date} className="w-6 h-6 md:w-8 md:h-8" alt="Event Date" /> {/* Adjusted size */}
-                    <p className="text-base text-white">9-10 NOV, 2024</p>
+                <div className="flex items-center justify-center gap-3">
+                    <img src={date} alt="Calendar" className="w-6 h-6" />
+                    <h3 className="font-bold text-lg">8 - 9 NOV, 2024</h3>
                 </div>
-                <div className="text-white">
-                    <span className="text-yellow-700">Registration Fees:</span>  1500 BDT per group (Max. 3 students)
+
+                <div className="flex items-center justify-center gap-3">
+                    <img
+                        src={map}
+                        alt="Location"
+                        className="w-8 h-8 lg:w-6 lg:h-6"
+                    />
+                    <a
+                            href="https://www.google.com/maps/place/Satyendra+Nath+Bose+Academic+Building/@22.802616,89.5321499,17z/data=!3m1!4b1!4m6!3m5!1s0x39ff8549472ab2c7:0x581022fe2caec6f6!8m2!3d22.8026111!4d89.5347248!16s%2Fg%2F11ddwhpz14?entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D"
+                            target="_blank"
+                            className="font-bold text-sm hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-orange-500 hover:to-red-500"
+                        >
+                            DR. Satyendra Nath Bose Academic Building, Khulna University
+                        </a>
                 </div>
-                <div className="flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-2 pb-5">
-                    <img src={map} className="w-6 h-6 md:w-8 md:h-8" alt="Location" /> {/* Adjusted size */}
-                    <p className="text-base text-white">
-                        DR. Satyendra Nath Bose Academic Building, Khulna University
-                    </p>
+
+                <div>
+                    <div className="flex gap-4 w-fit mx-auto">
+                        <a
+                            className="bg-white text-black font-bold inline-block px-4 py-2 rounded-xl"
+                            href={details} // Update to use the imported details file
+                            download // This attribute will trigger the download
+                        >
+                            Rules
+                        </a>
+
+                        <a
+                        className="bg-gradient-to-r from-orange-500 to-red-500 font-semibold text-white inline-block px-4 py-2 rounded-xl"
+                        href="#"
+                        >
+                        Register Now!
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

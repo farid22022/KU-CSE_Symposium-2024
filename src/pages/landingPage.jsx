@@ -1,5 +1,5 @@
 export default function LandingPage(){
     return(
-        <h1>langin page</h1>
+        <h1>Landing Page</h1>
     )
 }
